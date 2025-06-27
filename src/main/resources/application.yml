@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: mcp-host
+  ai:
+    anthropic:
+      api-key: ${ANTHROPIC_API_KEY:}
+      chat:
+        options:
+          model: claude-3-5-haiku-latest
+    mcp:
+      client:
+        enabled: true
+        name: my-mcp-client
+        version: 1.0.0
+        request-timeout: 30s
+        type: SYNC
+        sse:
+          connections:
+            my-weather-mcp:
+              url: ${MCP_SERVER_URL:mcp-server:9010}
+server:
+  port: 9000
+
+kafka:
+  bootstrap-servers: ${MCP_HOST_KAFKA_URL:kafka:9092}
