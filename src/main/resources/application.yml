@@ -17,7 +17,7 @@ spring:
         sse:
           connections:
             my-weather-mcp:
-              url: ${MCP_SERVER_URL:mcp-server:9010}
+              url: ${MCP_SERVER_URL:mcp-weather-server:9010}
 server:
   port: 9000
 

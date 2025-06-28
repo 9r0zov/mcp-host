@@ -9,7 +9,7 @@ services:
     ports:
       - "9000:9000"
     environment:
-      - MCP_SERVER_URL=http://mcp-server:9010
+      - MCP_SERVER_URL=http://mcp-weather-server:9010
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
       - MCP_HOST_KAFKA_URL=kafka:9092
     restart: unless-stopped

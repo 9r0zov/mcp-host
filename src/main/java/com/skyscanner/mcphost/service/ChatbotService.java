@@ -1,5 +1,6 @@
 package com.skyscanner.mcphost.service;
 
+import com.skyscanner.mcphost.util.InstaTextUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
@@ -11,11 +12,13 @@ public class ChatbotService {
     private final ChatClient chatClient;
 
     public String chat(String message) {
-        return chatClient
-                .prompt()
-                .user(message)
-                .call()
-                .content();
+        return InstaTextUtils.clean(
+                chatClient
+                        .prompt()
+                        .user(message)
+                        .call()
+                        .content()
+        );
     }
 
 }
