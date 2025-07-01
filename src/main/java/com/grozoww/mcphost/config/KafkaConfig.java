@@ -1,6 +1,6 @@
-package com.skyscanner.mcphost.config;
+package com.grozoww.mcphost.config;
 
-import com.skyscanner.mcphost.model.KafkaChatMessage;
+import com.grozoww.mcphost.model.KafkaChatMessage;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

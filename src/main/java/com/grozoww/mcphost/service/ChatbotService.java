@@ -1,6 +1,6 @@
-package com.skyscanner.mcphost.service;
+package com.grozoww.mcphost.service;
 
-import com.skyscanner.mcphost.util.InstaTextUtils;
+import com.grozoww.mcphost.util.InstaTextUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;

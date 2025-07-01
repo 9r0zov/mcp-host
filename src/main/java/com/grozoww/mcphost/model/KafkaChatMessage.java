@@ -1,4 +1,4 @@
-package com.skyscanner.mcphost.model;
+package com.grozoww.mcphost.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

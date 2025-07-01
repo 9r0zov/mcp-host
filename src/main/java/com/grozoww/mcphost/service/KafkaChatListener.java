@@ -1,6 +1,6 @@
-package com.skyscanner.mcphost.service;
+package com.grozoww.mcphost.service;
 
-import com.skyscanner.mcphost.model.KafkaChatMessage;
+import com.grozoww.mcphost.model.KafkaChatMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;

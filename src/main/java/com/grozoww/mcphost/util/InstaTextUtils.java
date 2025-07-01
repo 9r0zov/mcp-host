@@ -1,4 +1,4 @@
-package com.skyscanner.mcphost.util;
+package com.grozoww.mcphost.util;
 
 import java.util.regex.Pattern;
 

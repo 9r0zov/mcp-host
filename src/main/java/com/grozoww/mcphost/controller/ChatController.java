@@ -1,7 +1,7 @@
-package com.skyscanner.mcphost.controller;
+package com.grozoww.mcphost.controller;
 
-import com.skyscanner.mcphost.model.UserRequest;
-import com.skyscanner.mcphost.service.ChatbotService;
+import com.grozoww.mcphost.model.UserRequest;
+import com.grozoww.mcphost.service.ChatbotService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
